@@ -1,0 +1,65 @@
+[
+  {
+    "organizationId": 798740,
+    "actions": [
+      {
+        "resource": "/organizations/798740/policyObjects/821343982041696057",
+        "operation": "update",
+        "body": {
+          "cidr": "1.1.1.2",
+          "name": "Cloudflare"
+        }
+      },
+      {
+        "resource": "/organizations/798740/policyObjects/821343982041696051",
+        "operation": "update",
+        "body": {
+          "name": "Badguys",
+          "fqdn": "badguys.com"
+        }
+      },
+      {
+        "resource": "/organizations/798740/policyObjects/821343982041696058",
+        "operation": "update",
+        "body": {
+          "cidr": "100.0.0.0/20",
+          "name": "Net_100"
+        }
+      },
+      {
+        "resource": "/organizations/798740/policyObjects/821343982041696059",
+        "operation": "update",
+        "body": {
+          "cidr": "192.168.1.17",
+          "name": "Host_1"
+        }
+      },
+      {
+        "resource": "/organizations/798740/policyObjects/821343982041696060",
+        "operation": "update",
+        "body": {
+          "cidr": "192.168.1.0/24",
+          "name": "Host_Subnet_1"
+        }
+      },
+      {
+        "resource": "/organizations/798740/policyObjects/821343982041696055",
+        "operation": "update",
+        "body": {
+          "name": "Example",
+          "fqdn": "example1.com"
+        }
+      },
+      {
+        "resource": "/organizations/798740/policyObjects/821343982041696056",
+        "operation": "update",
+        "body": {
+          "name": "British_Example",
+          "fqdn": "www.example.co.uk"
+        }
+      }
+    ],
+    "synchronous": false,
+    "confirmed": true
+  }
+]

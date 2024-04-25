@@ -1,0 +1,11 @@
+object,object_name,object_group
+1.1.1.2,Cloudflare,DNS_Providers
+badguys.com,Badguys,Threat_Domains
+100.0.0.0/20,Net_100,IPv4_Subnets
+192.168.1.17,Host_1,IPv4_Hosts
+192.168.1.0/24,Host_Subnet_1,IPv4_Subnets
+example1.com,Example,Example_Domains
+www.example.co.uk,British_Example,Example_Domains
+invalid_string,Invalid,invalid
+2001:0db8::1,IPv6_Host_1,IPv6_Hosts
+2001:0db8::/32,IPv6_Subnet_1,IPv6_Subnets
