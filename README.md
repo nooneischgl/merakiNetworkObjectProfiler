@@ -1,5 +1,5 @@
 # merakiNetworkObjectProfiler
-Creates Meraki Dashboard Network Policy Objects
+Creates and Updates Meraki Dashboard Network Policy Objects
 
 ## How to Use
 
