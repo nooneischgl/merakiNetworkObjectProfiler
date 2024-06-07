@@ -58,11 +58,7 @@ for item in objectGroups:
     flattened_objectGroups.append(item['name'])
 ## Find what groups need to be created 
 for obj in objects_l_of_d:
-    print(f'OBJECT GROUP {obj["object_group"]}')
-    print(flattened_objectGroups)
     if obj["object_group"] not in flattened_objectGroups:
-        print("NOT ADDED")
-        print(f"New Group {new_groups}")
         if obj["object_group"] not in new_groups:
             new_groups.append(obj["object_group"])
 
@@ -105,7 +101,6 @@ print("Classifying objects in your CSV as follows... "
       "(Note: Only one Group currently supported per object).")
 for obj in objects_l_of_d:
     result = determine_string_type(obj["object"])
-    print(f"{obj['object']}: {result}")
     if result != "Unknown":
         if result == "cidr":
             net_address = ipaddress.ip_network(obj["object"], strict=False)
@@ -173,7 +168,6 @@ for item in create_obj:
 update_obj_actions = []
 for item in update_obj:
     kwargs = {k: item[k] for k in item.keys() - {"policyObjectId"}}
-    print(f'Details for: {kwargs}')
     update_object_action = dashboard.batch.organizations.updateOrganizationPolicyObject(
         organizationId=config.org_id,
         policyObjectId=item["policyObjectId"],

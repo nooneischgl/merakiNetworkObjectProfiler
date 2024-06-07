@@ -6,11 +6,11 @@
         "resource": "/organizations/803699/policyObjects/821343982041696061",
         "operation": "update",
         "body": {
-          "cidr": "1.1.1.2",
-          "name": "Cloudflare",
           "groupIds": [
             "821343982041694581"
-          ]
+          ],
+          "name": "Cloudflare",
+          "cidr": "1.1.1.2"
         }
       },
       {
@@ -18,43 +18,43 @@
         "operation": "update",
         "body": {
           "fqdn": "badguys.com",
-          "name": "Badguys",
           "groupIds": [
             "821343982041694582"
-          ]
+          ],
+          "name": "Badguys"
         }
       },
       {
         "resource": "/organizations/803699/policyObjects/821343982041696063",
         "operation": "update",
         "body": {
-          "cidr": "100.0.0.0/20",
-          "name": "Net_100",
           "groupIds": [
             "821343982041694583"
-          ]
+          ],
+          "name": "Net_100",
+          "cidr": "100.0.0.0/20"
         }
       },
       {
         "resource": "/organizations/803699/policyObjects/821343982041696064",
         "operation": "update",
         "body": {
-          "cidr": "192.168.1.17",
-          "name": "Host_1",
           "groupIds": [
             "821343982041694584"
-          ]
+          ],
+          "name": "Host_1",
+          "cidr": "192.168.1.17"
         }
       },
       {
         "resource": "/organizations/803699/policyObjects/821343982041696065",
         "operation": "update",
         "body": {
-          "cidr": "192.168.1.0/24",
-          "name": "Host_Subnet_1",
           "groupIds": [
             "821343982041694583"
-          ]
+          ],
+          "name": "Host_Subnet_1",
+          "cidr": "192.168.1.0/24"
         }
       },
       {
@@ -62,10 +62,10 @@
         "operation": "update",
         "body": {
           "fqdn": "example1.com",
-          "name": "Example",
           "groupIds": [
             "821343982041694585"
-          ]
+          ],
+          "name": "Example"
         }
       },
       {
@@ -73,10 +73,32 @@
         "operation": "update",
         "body": {
           "fqdn": "www.example.co.uk",
-          "name": "British_Example",
           "groupIds": [
             "821343982041694585"
-          ]
+          ],
+          "name": "British_Example"
+        }
+      },
+      {
+        "resource": "/organizations/803699/policyObjects/821343982041694556",
+        "operation": "update",
+        "body": {
+          "groupIds": [
+            "821343982041694599"
+          ],
+          "name": "Google DNS",
+          "cidr": "8.8.8.8"
+        }
+      },
+      {
+        "resource": "/organizations/803699/policyObjects/821343982041696790",
+        "operation": "update",
+        "body": {
+          "groupIds": [
+            "821343982041694599"
+          ],
+          "name": "Google DNS 2",
+          "cidr": "8.8.4.4"
         }
       }
     ],
