@@ -1,61 +1,82 @@
 [
   {
-    "organizationId": 798740,
+    "organizationId": "803699",
     "actions": [
       {
-        "resource": "/organizations/798740/policyObjects/821343982041696057",
+        "resource": "/organizations/803699/policyObjects/821343982041696061",
         "operation": "update",
         "body": {
           "cidr": "1.1.1.2",
-          "name": "Cloudflare"
+          "name": "Cloudflare",
+          "groupIds": [
+            "821343982041694581"
+          ]
         }
       },
       {
-        "resource": "/organizations/798740/policyObjects/821343982041696051",
+        "resource": "/organizations/803699/policyObjects/821343982041696062",
         "operation": "update",
         "body": {
+          "fqdn": "badguys.com",
           "name": "Badguys",
-          "fqdn": "badguys.com"
+          "groupIds": [
+            "821343982041694582"
+          ]
         }
       },
       {
-        "resource": "/organizations/798740/policyObjects/821343982041696058",
+        "resource": "/organizations/803699/policyObjects/821343982041696063",
         "operation": "update",
         "body": {
           "cidr": "100.0.0.0/20",
-          "name": "Net_100"
+          "name": "Net_100",
+          "groupIds": [
+            "821343982041694583"
+          ]
         }
       },
       {
-        "resource": "/organizations/798740/policyObjects/821343982041696059",
+        "resource": "/organizations/803699/policyObjects/821343982041696064",
         "operation": "update",
         "body": {
           "cidr": "192.168.1.17",
-          "name": "Host_1"
+          "name": "Host_1",
+          "groupIds": [
+            "821343982041694584"
+          ]
         }
       },
       {
-        "resource": "/organizations/798740/policyObjects/821343982041696060",
+        "resource": "/organizations/803699/policyObjects/821343982041696065",
         "operation": "update",
         "body": {
           "cidr": "192.168.1.0/24",
-          "name": "Host_Subnet_1"
+          "name": "Host_Subnet_1",
+          "groupIds": [
+            "821343982041694583"
+          ]
         }
       },
       {
-        "resource": "/organizations/798740/policyObjects/821343982041696055",
+        "resource": "/organizations/803699/policyObjects/821343982041696066",
         "operation": "update",
         "body": {
+          "fqdn": "example1.com",
           "name": "Example",
-          "fqdn": "example1.com"
+          "groupIds": [
+            "821343982041694585"
+          ]
         }
       },
       {
-        "resource": "/organizations/798740/policyObjects/821343982041696056",
+        "resource": "/organizations/803699/policyObjects/821343982041696067",
         "operation": "update",
         "body": {
+          "fqdn": "www.example.co.uk",
           "name": "British_Example",
-          "fqdn": "www.example.co.uk"
+          "groupIds": [
+            "821343982041694585"
+          ]
         }
       }
     ],
