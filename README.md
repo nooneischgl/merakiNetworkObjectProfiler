@@ -16,7 +16,10 @@ Creates and Updates Meraki Dashboard Network Policy Objects
 
 1. For CIDR and Host objects, only IPv4 objects are supported
 2. This will verify existing objects in your organization by name, and if there are matches in your CSV file, the script will update these objects to the values specified in your CSV
-3. Group Objects will be created and objects associated to the proper group objects. But Group Object Names are not updated, only created.
+3. Group Objects will be created and objects associated with the proper group objects. But Group Object Names are not updated; they are only created.
+4. Group Objects can ONLY contain a single type of object FQDN or CIDR
+5. Only 150 Objects can be added to a Group.
+6. Groups may not be nested. 
 
 
 ## Activate venv
